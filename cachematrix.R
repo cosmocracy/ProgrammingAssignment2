@@ -72,7 +72,7 @@ makeCacheMatrix <- function(mat = matrix()) {
 ##
 ## NOTES: 
 ## 1. This function assumes that the given matrix is square/invertable/solvable
-## 2. Any additional parameters passed (beyond the CacheMatrix instance) will the
+## 2. Any additional parameters passed (beyond the CacheMatrix instance) will be
 ##    provided to the solve() method used to calculate the inverse.
 cacheSolve <- function(cachematrix, ...) {
   # Fetch the cached inverse (if any)
